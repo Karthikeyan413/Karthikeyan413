@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="profile_styles.css">
+    <style>
+      body {
+        background-color: rgba(33, 32, 32, 0.9);
+        position: relative;
+        color: rgb(234, 222, 207);
+      }
+      .bg {
+        background-color: rgb(33, 32, 32);
+        margin-left: 5em;
+      }
+      .aside {
+        top: 50%;
+        transform: translate(0,-60%);
+        color: aliceblue;
+        position: fixed;
+      }
+      .aside > ul > li {
+        margin: 2em 0;
+      }
+    </style>
+</head>
+<body>
+  <div class="aside">
+    <ul style="list-style: none;">
+      <li><a href="#about" style="text-decoration: none;">About</a></li>
+      <li><a href="#skills" style="text-decoration: none;">Skills</a></li>
+    </ul>
+  </div>
+  <div class="bg">
+    <div class="container" id="about">
+      <div style="display: flex; align-items: center;">
+        <div>
+
+          <h1 style="color: red; font-size: 4rem;"> <span style="color: yellow;">{</span> Hello! <span style="color: yellow;">}</span> </h1>
+          <h1> I'm Karthikeyan, </h1>
+          <br>
+          <h4>Student, Developer, and Inquisitive learner.</h4>
+          <p>
+            A creative and inquisitive learner with a passion for developing innovative solutions to complex problems. Interested in web development, ML and graphic design.
+          </p>
+        </div>
+      </div>
+      <div class="profileIMG">
+        <img src="profile.jpg" alt="" srcset="">
+      </div>
+    </div>
+    <hr>
+    <div class="container" id="education">
+      <h2> <span style="color: greenyellow;">#</span> EDUCATION</h2>
+      <table>
+        <thead>
+          <th>Bachelor Of Technology, Computer Science &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp</th>
+          <th>     Graduation	 Year  – 2024  </th>
+        </thead>
+        <tbody style="border-bottom:1px solid;">
+          <td>Kumaraguru College of Technology, <br>
+               Affiliated to Anna University, <br>
+              Coimbatore, Tamil Nadu.
+          </td>
+          <td>CGPA 8.8 </td>
+        </tbody>
+        <thead>
+          <th>CLASS 12 </th>
+          <th>Graduated – May 2020 </th>
+        </thead>
+        <tbody style="border-bottom:1px solid;">
+          <td>SSVM World School, <br>
+              CBSE Board, <br>
+              Coimbatore, Tamil Nadu.
+          </td>
+          <td>Percentage   92.2 %</td>
+        </tbody>
+        <thead>
+          <th>CLASS 10 </th>
+          <th>Graduated – April 2018 </th>
+        </thead>
+        <tbody>
+          <td>Vijaya Vidhyalaya CBSE School,  <br>
+              CBSE Board, <br>
+              Coimbatore, Tamil Nadu.
+          </td>
+          <td>Percentage   76.6 % </td>
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <div class="container" id="projects">
+      <h2> <span style="color: greenyellow;">#</span> PROJECTS</h2>
+      <ul>
+        <li><h3>ACADEMIC PROJECTS</h3></li>
+        <dl class="projects">
+          <dt>Commodity Reservation System</dt>
+          <dd>Website that handles reservation, pricing, and other cargo railway
+            services.</dd>
+          <dd>Built with Django framework.</dd>
+          <dt>Sign Language Detection</dt>
+          <dd>TensorFlow SSD model for detecting hand signs.</dd>
+          <dd>Built with OpenCV and TensorFlow</dd>
+        </dl>
+        <li><h3>WORK PROJECTS</h3></li>
+        <dl class="projects">
+          <dt>ICAIC 2022 - Website</dt>
+          <dd>Website for ICAIC conference held at Kumaraguru College of Technology</dd>
+          <dd>Website developed using - HTML, CSS and JavaScript.</dd>
+          <dt>IEEE - Website</dt>
+          <dd>Website for IEEE conference held at Kumaraguru College of Technology</dd>
+          <dd>Website developed using - HTML, CSS and JavaScript.</dd>
+          <dt>Poultry Production Management - Website</dt>
+          <dd>Website for automating traditional excel data entry to web-based
+            production management. Also provides data visualization of daily
+            production</dd>
+          <dd>Tools/Libraries used: Django Framework, DataTables, Bootstrap.</dd>
+          <dt>Weighing Scale Automation - IOT</dt>
+          <dd>Software integrated in raspberry pi to weight list of ingredients stored in
+            datasheet.
+            </dd>
+          <dd>Tools/Libraries used: HX711 module, gspread, pandas, tkinter.</dd>
+        </dl>
+      </ul>
+    </div>
+    <hr>
+    <div class="container" id="ACHIEVEMENTS">
+      <h2> <span style="color: greenyellow;">#</span> ACHIEVEMENTS</h2>
+      <ul>
+        <li>Mahatma Gandhi Scholarship Award <br>
+          27 March 2022</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="container" id="skills">
+      <h2> <span style="color: greenyellow;">#</span> SKILLS</h2>
+      <dl class="">
+        <dt>SOFT SKILLS</dt>
+        <dd>Problem Solving, Creative thinking, Team work, Quick learner.</dd>
+        <dt>TECHNICAL SKILLS</dt>
+        <dd>Python , C, Java, JavaScript, Web development, <br>
+          Django Framework, Photoshop</dd>
+      </dl>
+    </div>
+    <hr>
+    <div class="container">
+      <h2> <span style="color: greenyellow;">#</span> PERSONAL INTERESTS</h2>
+      <ul>
+        <li>Machine Learning</li>
+        <li>Computer Vision</li>
+        <li>Data Science</li>
+        <li>I love to play online games.</li>
+        <li>I am pretty good at photography.</li>
+        <li>I read books.</li>
+      </ul>
+    </div>
+    <hr>
+    <div class="container" id="per_details">
+      <h2 style="color: greenyellow;"># PERSONAL DETAILS</h2>
+      <dl class="">
+        <dt style="color: rgb(99, 99, 239);"> <span style="color: orangered;">def</span> PhoneNumber(): </dt>
+        <dd>&nbsp&nbsp&nbsp&nbsp <span style="color:palevioletred;">print</span> (<span style="color: rgb(43, 150, 43);"> "9489491967"</span>)</dd>
+
+        <dt style="color: rgb(99, 99, 239);"> <span style="color: orangered;">def</span> birthday(): </dt>
+        <dd>&nbsp&nbsp&nbsp&nbsp <span style="color:palevioletred;">print</span> (<span style="color: rgb(43, 150, 43);"> "01/02/2003"</span>)</dd>
+
+        <dt style="color: rgb(99, 99, 239);"> <span style="color: orangered;">def</span> nationality(): </dt>
+        <dd>&nbsp&nbsp&nbsp&nbsp <span style="color:palevioletred;">print</span> (<span style="color: rgb(43, 150, 43);"> "Indian"</span>)</dd>
+      </dl>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

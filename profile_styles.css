@@ -1,0 +1,64 @@
+body > div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.bg > div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#about {
+    padding-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+}
+#about > div {
+    flex: 1;
+    align-items: center;
+}
+.profileIMG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileIMG > img {
+    width: 50%;
+    border-radius: 4%;
+}
+#per_details {
+    padding-bottom: 2em;
+}
+h2 {
+    color: rgb(71, 122, 200);
+    margin-bottom: 1.2rem;
+}
+.aside > ul {
+    padding-left: 1rem;
+}
+.aside > ul > li > a{
+    color: white;
+}
+#education > table > thead > tr > th {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+#education > table > tbody > tr > td {
+    padding-bottom: 1rem;
+}
+
+#skills > dl > dt ,
+.projects > dt {
+    color: chocolate;
+}
+.projects {
+    padding-left: inherit;
+}
+.projects > dd {
+    display: list-item; 
+    list-style-type:circle;
+}
+#projects > ul > li {
+    color: turquoise;
+}
